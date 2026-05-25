@@ -1,5 +1,6 @@
-#heather{
+header{
     background-color: black;
+    display: flex;
     flex-direction: column;
     color: aliceblue;
     padding: 5px;
@@ -7,7 +8,8 @@
     position: sticky;
     top: 0;
 }
-#footer{
+
+footer{
     background-color: black;
     color: aliceblue;
     display: flex;
@@ -17,29 +19,30 @@
     position: sticky;
     bottom: 0;
 }
-#nav{
+
+nav{
     justify-content: center;
     flex-direction: row;
     display: flex;
     gap: 30px;
     font-size: 30px;
-    
 }
+
 h1{
-    justify-content:center;
+    justify-content: center;
     display: flex;
     font-size: 40px;
 }
-#heather a{
+
+header a{
     color: aliceblue;
     text-decoration: none;
 }
-#heather a:hover{
+
+header a:hover{
     font-size: 35px;
 }
-a:hover{
-    font-size: 20px;
-}
+
 a{
     justify-content: center;
     display: flex;
