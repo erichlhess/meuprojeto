@@ -1,12 +1,15 @@
 header{
     background-color: black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: aliceblue;
-    padding: 5px;
+    padding: 1px 10px;
     border-radius: 10px;
     position: sticky;
     top: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 175px;
 }
 
 footer{
@@ -26,6 +29,7 @@ nav{
     display: flex;
     gap: 30px;
     font-size: 30px;
+    
 }
 
 h1{
@@ -53,7 +57,7 @@ a{
     text-decoration: none;
 }
 section{
-    scroll-margin-top: 150px;
+    scroll-margin-top: 110px;
 }
 html{
     scroll-behavior: smooth;
