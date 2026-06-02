@@ -58,7 +58,19 @@ a{
 }
 section{
     scroll-margin-top: 110px;
+    border-bottom: black solid 1px;
 }
 html{
     scroll-behavior: smooth;
+}
+#sobre{
+    background-color: white;
+    padding: 2px 7px;
+    border-radius: 4px;
+    color: black;
+}
+#sorvete{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
