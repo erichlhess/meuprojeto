@@ -92,13 +92,12 @@ a{
 section{
     scroll-margin-top: 110px;
     background-color: white;
-    margin-bottom: -20px;
 }
 
 #sorveteimg{
     width: 800px;
     height: 550px;
-    padding: 30px 60px 0px 60px;
+    padding: 20px 60px 0px 60px;
 }
 
 #sabor{
@@ -148,25 +147,35 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #nossos{
     color: #053abf;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 700;
+    padding: 30px 15px;
 }
 #nossos2{
     letter-spacing: 1.2px;
     padding: 0px 15px;
 }
+.sabores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px 0px 50px 0px;
+}
 .tiposorve{
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     width: fit-content;
     border-radius: 15px;
-    padding: 20px 0px;
+    padding: 20px 10px;
 }
 #imgchoco{
     width: 250px;
@@ -174,15 +183,36 @@ section{
     margin-bottom: -10px;
 }
 .nomesorvete{
-    font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: #0C1F72;
+    margin-bottom: -2px;
 }
 .descricaosorvete{
-    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #666666;
     line-height: 1.5;
     margin-bottom: -10px;
+}
+.descricaosorvete2{
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.vermais{
+    border: 1.5px solid #2563EB;
+    color: #2563EB;
+    padding: 7px 23px;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.vermais:hover{
+    background-color: #2563EB;
+    color: white;
+    transition: all 0.5s ease;
 }
