@@ -44,6 +44,9 @@ header{
     background-color: white;
     border: white solid 1px;
 }
+section{
+    font-family: 'Poppins', sans-serif;
+}
 footer{
     background-color: #0C1F72;
     color: aliceblue;
@@ -88,10 +91,6 @@ a{
     text-decoration: none;
 }
 
-section{
-    background-color: white;
-}
-
 #p1{
     scroll-margin-top: 100px;
 }
@@ -107,8 +106,6 @@ section{
     flex-direction: row;
     justify-content: space-between;
     background-color: #F4F9FF;
-    font-family: 'Poppins', sans-serif;
-
 }
 
 #sabor1{
@@ -158,8 +155,7 @@ section{
 }
 #nossos{
     color: #053abf;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     padding: 30px 15px;
 }
@@ -171,11 +167,10 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 90px;
+    gap: 70px;
     padding: 20px 0px 50px 0px;
 }
 .tiposorve{
-    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,27 +180,27 @@ section{
     padding: 20px 10px;
 }
 #imgchoco{
-    width: 250px;
-    height: 175px;
-    margin-bottom: -10px;
+    width: 300px;
+    height: 205px;
+    margin-bottom: -4px;
 }
 .nomesorvete{
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
     color: #0C1F72;
-    margin-bottom: -2px;
+    margin-bottom: 0px;
 }
 .descricaosorvete{
-    font-size: 16px;
+    font-size: 20px;
     color: #666666;
     line-height: 1.5;
-    margin-bottom: -10px;
+    margin-bottom: -16px;
 }
 .descricaosorvete2{
-    font-size: 16px;
+    font-size: 20px;
     color: #666666;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 }
 
 .vermais{
@@ -228,12 +223,12 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FFF0F6;
-    font-family: 'Poppins', sans-serif;
+    background-color: #FFF7FA;
+    margin-bottom: -20px;
 }
 #promocoes{
     color: #FF4080;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     padding: 30px 15px;
 }
@@ -247,37 +242,87 @@ section{
     justify-content: center;
     background-color: #FEF8F9;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+    border-radius: 35px;
     overflow: hidden;
-    padding: 0px 0px 0px 55px;
+    padding: 0px 0px 0px 70px;
     margin-bottom: 30px;
 }
 #casquinha{
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 60px 0px 0px;
 }
 #emdobro{
     color: #FF4F93;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 2px;
 }
 #descricaocasquinha{
     color: #444444;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 25px;
 }
 #aproveite{
     color: #FFFFFF;
     background-color: #FF4F93;
-    padding: 10px 20px;
+    padding: 13px 30px;
     border-radius: 8px;
 
 }
 #imgpromocao{
-    height: 250px;
-    width: 670px;
+    height: 300px;
+    width: 790px;
+}
+#p4{
+    background-color: #F4F9FF;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#sobreimg{
+    padding: 45px 0px 45px 100px;
+}
+#imagemsobre{
+    width: 750px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#sobre{
+    padding: 50px 0px 45px 0px;
+}
+#nossahistora{
+    color: #2563EB;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-bottom: 20px;
+}
+#titulohistoria{
+    color: #0C1F72;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+#descricaohistoria{
+    color: #5A667A;
+    line-height: 1.6;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+#saibamaishistoria{
+    background-color: #1565D8;
+    color: #FFFFFF;
+    width: fit-content;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#saibamaishistoria:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.15);
 }
