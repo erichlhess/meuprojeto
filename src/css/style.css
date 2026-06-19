@@ -1,7 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 header{
     background-color: #0C1F72;
     display: flex;
@@ -16,13 +15,13 @@ header{
     font-family: 'Poppins', sans-serif;
     padding: 20px;
 }
-#topo{
+#areaLogo{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px 0px 0px 80px;
 }
-#subtitulo{
+#textoLogo{
     padding: 0px 0px 0px 10px;
     font-size: 10px;
     display: flex;
@@ -31,13 +30,13 @@ header{
     font-family: 'Arial';
     letter-spacing: 4px;
 }
-#titulo{
+#nomeSorveteria{
     font-family: 'Great Vibes', cursive;
     letter-spacing: 2px;
     margin-bottom: -10px;
     font-size: 30px;
 }
-#imagemcasquinhas{
+#logoSorveteria{
     width: 50px;
     height: 50px;
     border-radius: 100%;
@@ -58,8 +57,7 @@ footer{
     position: sticky;
     bottom: 0;
 }
-
-nav{
+#menuNavegacao{
     justify-content: center;
     flex-direction: row;
     display: flex;
@@ -67,70 +65,60 @@ nav{
     font-size: 20px;
     padding: 0px 100px 0px 0px;
 }
-
 h1{
     justify-content: center;
     display: flex;
     font-size: 40px;
 }
-
 header a{
     color: aliceblue;
     text-decoration: none;
     display: inline-block;
     transition: all 0.3s ease;
 }
-
 header a:hover{
     transform: scale(1.55);
 }
-
 a{
     justify-content: center;
     display: flex;
     color: black;
     text-decoration: none;
 }
-
-#p1{
+#inicio{
     scroll-margin-top: 100px;
 }
-#sorveteimg{
+#imagemBanner{
     width: 850px;
     height: 610px;
     padding: 33px 60px 0px 60px;
 }
-
-#sabor{
+#bannerPrincipal{
     display: flex;
     justify-content: center;
     flex-direction: row;
     justify-content: space-between;
     background-color: #F4F9FF;
 }
-
-#sabor1{
+#textoBanner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 0px 100px 90px 100px;
 }
-
-#sabor2{
+#tituloBanner{
     font-size: 60px;
     color: #0c1f72;
     line-height: 1.2;
     margin-bottom: -5px;
 }
-
-#sabor3{
+#descricaoBanner{
     font-size: 20px;
     color: #444;
     line-height: 1.5;
     padding: 10px 0px;
 }
-
-#saborlink{
+#botaoSabores{
     color: white;
     font-size: 15px;
     background-color: rgb(255, 64, 128);
@@ -139,39 +127,37 @@ a{
     width: fit-content;
     transition: all 0.5s ease;
 }
-#saborlink:hover{
-    transition: all 0.5s ease;
+#botaoSabores:hover{
     transform: scale(1.15);
 }
-
-#dia{
+#textoDestaque{
     color: rgb(255, 64, 128);
 }
-#p2{
+#sabores{
     scroll-margin-top: 95px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#nossos{
+#tituloSecaoSabores{
     color: #053abf;
     font-size: 25px;
     font-weight: 700;
     padding: 30px 15px;
 }
-#nossos2{
+#textoTituloSabores{
     letter-spacing: 0.6px;
     padding: 0px 15px;
 }
-.sabores{
+.listaSabores{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 70px;
     padding: 20px 0px 50px 0px;
 }
-.tiposorve{
+.cartaoSabor{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,31 +166,30 @@ a{
     border-radius: 15px;
     padding: 20px 10px;
 }
-#imgchoco{
+.imagemSabor{
     width: 300px;
     height: 205px;
     margin-bottom: -4px;
 }
-.nomesorvete{
+.nomeSabor{
     font-size: 26px;
     font-weight: 700;
     color: #0C1F72;
     margin-bottom: 0px;
 }
-.descricaosorvete{
+.descricaoSabor{
     font-size: 20px;
     color: #666666;
     line-height: 1.5;
     margin-bottom: -16px;
 }
-.descricaosorvete2{
+.descricaoSaborFinal{
     font-size: 20px;
     color: #666666;
     line-height: 1.5;
     margin-bottom: 22px;
 }
-
-.vermais{
+.botaoVerMais{
     border: 1.5px solid #2563EB;
     color: #2563EB;
     padding: 7px 23px;
@@ -213,12 +198,11 @@ a{
     text-decoration: none;
     transition: all 0.5s ease;
 }
-.vermais:hover{
+.botaoVerMais:hover{
     background-color: #2563EB;
     color: white;
-    transition: all 0.5s ease;
 }
-#p3{
+#promocoes{
     scroll-margin-top: 95px;
     display: flex;
     flex-direction: column;
@@ -227,17 +211,17 @@ a{
     background-color: #FFF7FA;
     margin-bottom: -20px;
 }
-#promocoes{
+#tituloSecaoPromocoes{
     color: #FF4080;
     font-size: 25px;
     font-weight: 700;
     padding: 30px 15px;
 }
-#promocoes2{
+#textoTituloPromocoes{
     letter-spacing: 0.6px;
     padding: 0px 15px;
 }
-#promocao{
+#cartaoPromocao{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -248,79 +232,78 @@ a{
     padding: 0px 0px 0px 70px;
     margin-bottom: 30px;
 }
-#casquinha{
+#conteudoPromocao{
     display: flex;
     flex-direction: column;
     align-items: start;
     padding: 10px 60px 0px 0px;
 }
-#emdobro{
+#tituloPromocao{
     color: #FF4F93;
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 2px;
 }
-#descricaocasquinha{
+#descricaoPromocao{
     color: #444444;
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 25px;
 }
-#aproveite{
+#botaoPromocao{
     color: #FFFFFF;
     background-color: #FF4F93;
     padding: 13px 30px;
     border-radius: 8px;
     transition: all 0.5s ease;
 }
-#aproveite:hover{
-    transition: all 0.5s ease;
+#botaoPromocao:hover{
     transform: scale(1.15);
 }
-#imgpromocao{
+#imagemPromocao{
     height: 300px;
     width: 790px;
 }
-#p4{
+#sobre{
     scroll-margin-top: 95px;
     background-color: #F4F9FF;
     display: flex;
     flex-direction: row;
     gap: 70px;
 }
-#sobreimg{
+#areaImagemSobre{
     padding: 45px 0px 45px 100px;
 }
-#imagemsobre{
+#imagemSobre{
     width: 750px;
     height: 400px;
     border-radius: 20px;
     overflow: hidden;
 }
-#sobre{
+#conteudoSobre{
     padding: 50px 0px 45px 0px;
 }
-#nossahistora{
+#subtituloSobre{
     color: #2563EB;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.2px;
     margin-bottom: 20px;
 }
-#titulohistoria{
+#tituloSobre{
     color: #0C1F72;
     font-size: 42px;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 20px;
 }
-#descricaohistoria{
+#descricaoSobre{
     color: #5A667A;
     line-height: 1.6;
     font-size: 20px;
     margin-bottom: 25px;
 }
-#saibamaishistoria{
+#botaoSobre{
     background-color: #1565D8;
     color: #FFFFFF;
     width: fit-content;
@@ -328,40 +311,39 @@ a{
     border-radius: 10px;
     transition: all 0.5s ease;
 }
-#saibamaishistoria:hover{
-    transition: all 0.5s ease;
+#botaoSobre:hover{
     transform: scale(1.15);
 }
-#p5{
+#contato{
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 120px;
     padding: 30px 0px;
 }
-.localizacao{
+.informacoesLocalizacao{
     display: flex;
     justify-content: center;
     gap: 100px;
 }
-.localizacaotitulo{
+.tituloInformacao{
     color: #2563EB;
     font-weight: 600;
     margin-bottom: -7px;
     font-size: 17px;
 }
-.localizacaosubtitulo{
+.subtituloInformacao{
     color: #0C1F72;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 0px;
 }
-.localizacaodescricao{
+.descricaoInformacao{
     color: #5A667A;
     font-size: 20px;
     line-height: 2;
 }
-.localizacaobotao{
+.botaoInformacao{
     color: #2563EB;
     font-size: 16px;
     border: solid #2563EB 1px;
@@ -371,31 +353,29 @@ a{
     font-weight: 500;
     transition: all 0.5s ease;
 }
-.localizacaobotao:hover{
-    transition: all 0.5s ease;
+.botaoInformacao:hover{
     transform: scale(1.15);
 }
-
-.localizacaoimg{
+.imagemLocalizacao{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     width: 260px;
     height: 250px;
 }
-#contatoimg{
+#iconesSociais{
     height: 50px;
     width: 200px;
     margin-left: -15px;
     margin-top: -5px;
 }
-#escrita{
+#formularioContato{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
-.nomeemailescrita{
+.campoFormulario{
     color: #5A667A;
     border-radius: 7px;
     border: 2px solid #D1DCE8;
@@ -403,7 +383,7 @@ a{
     font-size: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
-#mensagemescrita{
+#campoMensagem{
     color: #5A667A;
     border-radius: 7px;
     border: 2px solid #D1DCE8;
@@ -412,15 +392,14 @@ a{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     margin-bottom: 5px;
 }
-#enviarmensagem{
+#botaoEnviar{
     background-color: #FF4F93;
     border-radius: 10px;
     width: fit-content;
-    padding: 13px 60px 13px 60px;
+    padding: 13px 60px;
     color: white;
     transition: all 0.5s ease;
 }
-#enviarmensagem:hover{
-    transition: all 0.5s ease;
+#botaoEnviar:hover{
     transform: scale(1.10);
 }

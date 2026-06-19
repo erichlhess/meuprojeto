@@ -8,121 +8,147 @@
 </head>
 <body>
 
-    <header id="header">
-        <div id="topo">
-        <img id="imagemcasquinhas" src="imagens/casquinhas.png" alt="Logo">
-        <div id="subtitulo"><div id="titulo">Sorveteria</div><br>SABOR E ALEGRIA</div>
+    <header id="cabecalho">
+    <div id="areaLogo">
+        <img id="logoSorveteria" src="src/imagens/casquinhas.png" alt="Logo">
+        <div id="textoLogo">
+            <div id="nomeSorveteria">Sorveteria</div><br>
+            SABOR E ALEGRIA
         </div>
-        <nav id="nav">
-            <a href="#p1">Home</a>
-            <a href="#p2">Sabores</a>
-            <a href="#p3">Promoções</a>
-            <a href="#p4">Sobre</a>
-            <a href="#p5">Contato</a>
-        </nav>
-    </header>
+    </div>
 
-    <main>
+    <nav id="menuNavegacao">
+        <a href="#inicio">Home</a>
+        <a href="#sabores">Sabores</a>
+        <a href="#promocoes">Promoções</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
 
-        <section id="p1">
-            
-            <div id="sabor">
-                <div id="sabor1">
-                    <h2 id="sabor2">Sabor que<br> alegra <span id="dia">seu dia!</span></h2>
-                    <p id="sabor3">
-                        Feitos com ingredientes selecionados<br> para trazer mais sabor e felicidade<br> para você e sua familia.
-                    </p>
-                    <a id="saborlink" href="#p2">Conheça nossos sabores</a>
-                </div>
-                <img id="sorveteimg" src="imagens/sorvete.png" alt="Sorvete">
+<main>
+    <section id="inicio">
+        <div id="bannerPrincipal">
+            <div id="textoBanner">
+                <h2 id="tituloBanner">
+                    Sabor que<br>
+                    alegra <span id="textoDestaque">seu dia!</span>
+                </h2>
+                <p id="descricaoBanner">
+                    Feitos com ingredientes selecionados<br>
+                    para trazer mais sabor e felicidade<br>
+                    para você e sua família.
+                </p>
+                <a id="botaoSabores" href="#sabores">Conheça nossos sabores</a>
             </div>
-        </section>
-
-        <section id="p2">
-            <div id="nossos">────<span id="nossos2">NOSSOS SABORES</span>────</div>
-            <div class="sabores">
-                <div class="tiposorve">
-                        <img id="imgchoco" src= "imagens/sorvetechoco.png" alt="sorvetechocolate">
-                        <p class="nomesorvete">Chocolate</p>
-                        <p class="descricaosorvete">O clássico que nunca</p>
-                        <p class="descricaosorvete2">sai de moda</p>
-                        <a class="vermais" href="#p3">Ver mais</a>
-                </div>
-                <div class="tiposorve">
-                        <img id="imgchoco" src= "imagens/sorvetemoran.png" alt="sorvetechocolate">
-                        <p class="nomesorvete">Morango</p>
-                        <p class="descricaosorvete">Feito com morangos</p>
-                        <p class="descricaosorvete2">frescos e deliciosos.</p>
-                        <a class="vermais" href="#p3">Ver mais</a>
-                </div>
-                <div class="tiposorve">
-                        <img id="imgchoco" src= "imagens/sorvetebauni.png" alt="sorvetechocolate">
-                        <p class="nomesorvete">Baunilha</p>
-                        <p class="descricaosorvete">Cremoso e suave com</p>
-                        <p class="descricaosorvete2">toque especial.</p>
-                        <a class="vermais" href="#p3">Ver mais</a>
-                </div>
-                <div class="tiposorve">
-                        <img id="imgchoco" src= "imagens/sorveteoreo.png" alt="sorvetechocolate">
-                        <p class="nomesorvete">Cookies &amp; Cream</p>
-                        <p class="descricaosorvete">Irresistível combinação</p>
-                        <p class="descricaosorvete2">de cookies e creme.</p>
-                        <a class="vermais" href="#p3">Ver mais</a>
-                </div>
+            <img id="imagemBanner" src="src/imagens/sorvete.png" alt="Sorvete">
+        </div>
+    </section>
+    <section id="sabores">
+        <div id="tituloSecaoSabores">
+            ────<span id="textoTituloSabores">NOSSOS SABORES</span>────
+        </div>
+        <div class="listaSabores">
+            <div class="cartaoSabor">
+                <img class="imagemSabor" src="src/imagens/sorvetechoco.png" alt="Chocolate">
+                <p class="nomeSabor">Chocolate</p>
+                <p class="descricaoSabor">O clássico que nunca</p>
+                <p class="descricaoSaborFinal">sai de moda</p>
+                <a class="botaoVerMais" href="#promocoes">Ver mais</a>
             </div>
-        </section>
-
-        <section id="p3">
-            <div id="promocoes">────<span id="promocoes2">PROMOÇÕES DA SEMANA</span>────</div>
-            <div id="promocao">  
-                <div id="casquinha">
-                    <p id="emdobro">Casquinha em dobro!</p>
-                    <p id="descricaocasquinha">Na compra de qualquer casquinha,<br>você ganha outra do mesmo sabor.</p>
-                    <a id="aproveite" href="#p4">Aproveite agora</a>
-                </div>
-                <img id="imgpromocao" src="imagens/promocao.png" alt="Promoção">
+            <div class="cartaoSabor">
+                <img class="imagemSabor" src="src/imagens/sorvetemoran.png" alt="Morango">
+                <p class="nomeSabor">Morango</p>
+                <p class="descricaoSabor">Feito com morangos</p>
+                <p class="descricaoSaborFinal">frescos e deliciosos.</p>
+                <a class="botaoVerMais" href="#promocoes">Ver mais</a>
             </div>
-        </section>
-
-        <section id="p4">
-            <div id="sobreimg"> <img id="imagemsobre" src="imagens/imagemsobre.png" alt="Sobre"> </div>
-            <div id="sobre">
-                <div id="nossahistora">NOSSA HISTÓRIA</div>
-                <div id="titulohistoria">Tradição e qualidade<br> em cada detalhe!</div>
-                <div id="descricaohistoria">Nossa sorveteria nasceu com o propósito de espalhar<br> alegria através de sabores únicos e inesquecíveis.<br> Aqui, cada receita é feita com carinho e dedicação<br> para proporcionar a melhor experiência para você<br> e sua família.</div>
-                <a id="saibamaishistoria" href="#p5">Saiba mais sobre nós</a>
+            <div class="cartaoSabor">
+                <img class="imagemSabor" src="src/imagens/sorvetebauni.png" alt="Baunilha">
+                <p class="nomeSabor">Baunilha</p>
+                <p class="descricaoSabor">Cremoso e suave com</p>
+                <p class="descricaoSaborFinal">toque especial.</p>
+                <a class="botaoVerMais" href="#promocoes">Ver mais</a>
             </div>
-        </section>
-        <section id="p5">
-            <div class="localizacao">
-                <div>
-                    <p class="localizacaotitulo">ONDE ESTAMOS</p>
-                    <p class="localizacaosubtitulo">Venha nos visitar!</p>
-                    <p class="localizacaodescricao">Rua das delicias, 123<br>São Paulo - SP</p>
-                    <a class="localizacaobotao" href="">Ver no mapa</a>
-                </div>
-                <div>
-                    <img class="localizacaoimg" src= "imagens/localizacao.png" alt="localizacao">
-                </div>
+            <div class="cartaoSabor">
+                <img class="imagemSabor" src="src/imagens/sorveteoreo.png" alt="Cookies and Cream">
+                <p class="nomeSabor">Cookies &amp; Cream</p>
+                <p class="descricaoSabor">Irresistível combinação</p>
+                <p class="descricaoSaborFinal">de cookies e creme.</p>
+                <a class="botaoVerMais" href="#promocoes">Ver mais</a>
+            </div>
+        </div>
+    </section>
+    <section id="promocoes">
+        <div id="tituloSecaoPromocoes">
+            ────<span id="textoTituloPromocoes">PROMOÇÕES DA SEMANA</span>────
+        </div>
+        <div id="cartaoPromocao">
+            <div id="conteudoPromocao">
+                <p id="tituloPromocao">Casquinha em dobro!</p>
+                <p id="descricaoPromocao">
+                    Na compra de qualquer casquinha,<br>
+                    você ganha outra do mesmo sabor.
+                </p>
+                <a id="botaoPromocao" href="#sobre">Aproveite agora</a>
+            </div>
+            <img id="imagemPromocao" src="src/imagens/promocao.png" alt="Promoção">
+        </div>
+    </section>
+    <section id="sobre">
+        <div id="areaImagemSobre">
+            <img id="imagemSobre" src="src/imagens/imagemsobre.png" alt="Sobre">
+        </div>
+        <div id="conteudoSobre">
+            <div id="subtituloSobre">NOSSA HISTÓRIA</div>
+            <div id="tituloSobre">
+                Tradição e qualidade<br>
+                em cada detalhe!
+            </div>
+            <div id="descricaoSobre">
+                Nossa sorveteria nasceu com o propósito de espalhar<br>
+                alegria através de sabores únicos e inesquecíveis.<br>
+                Aqui, cada receita é feita com carinho e dedicação<br>
+                para proporcionar a melhor experiência para você<br>
+                e sua família.
+            </div>
+            <a id="botaoSobre" href="#contato">Saiba mais sobre nós</a>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="informacoesLocalizacao">
+            <div>
+                <p class="tituloInformacao">ONDE ESTAMOS</p>
+                <p class="subtituloInformacao">Venha nos visitar!</p>
+                <p class="descricaoInformacao">
+                    Rua das Delícias, 123<br>
+                    São Paulo - SP
+                </p>
+                <a class="botaoInformacao" href="">Ver no mapa</a>
             </div>
             <div>
-                    <p class="localizacaotitulo">ENTRE EM CONTATO</p>
-                    <p class="localizacaosubtitulo">Fale com a gente!</p>
-                    <p class="localizacaodescricao">(11) 67676-4242<br>gatinha.manhosa@gmail.com</p>
-                    <img id="contatoimg"src="imagens/iconessociais.png" alt="iconessociais">
+                <img class="imagemLocalizacao" src="src/imagens/localizacao.png" alt="Localização">
             </div>
-            <div id="escrita">
-                <input class="nomeemailescrita" type="text" placeholder="Nome">
-                <input class="nomeemailescrita" type="text" placeholder="Email">
-                <input id="mensagemescrita" type="text" placeholder="Mensagem">
-                <a id="enviarmensagem" href="#">Enviar mensagem</a>
-            </div>
-        </section>
-    </main>
-
-    <footer id="footer">
-        <p>&copy; 2026 Sorveteria Sabor e Alegria • Desenvolvido por Erich Hess</p>
-    </footer>
-
+        </div>
+        <div>
+            <p class="tituloInformacao">ENTRE EM CONTATO</p>
+            <p class="subtituloInformacao">Fale com a gente!</p>
+            <p class="descricaoInformacao">
+                (11) 67676-4242<br>
+                gatinha.manhosa@gmail.com
+            </p>
+            <img id="iconesSociais" src="src/imagens/iconessociais.png" alt="Ícones Sociais">
+        </div>
+        <div id="formularioContato">
+            <input class="campoFormulario" type="text" placeholder="Nome">
+            <input class="campoFormulario" type="text" placeholder="Email">
+            <input id="campoMensagem" type="text" placeholder="Mensagem">
+            <a id="botaoEnviar" href="#">Enviar mensagem</a>
+        </div>
+    </section>
+</main>
+<footer id="rodape">
+    <p>&copy; 2026 Sorveteria Sabor e Alegria • Desenvolvido por Erich Hess</p>
+</footer>
 </body>
 </html>
